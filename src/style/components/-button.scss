@@ -1,0 +1,40 @@
+//Big Button
+.big-button{
+    background: var(--purple);
+    border: none;
+    border-bottom: .6rem solid darken( #8357c5, 10%);
+    color: white;
+    font-weight: bold;
+    font-size: var(--l-size);
+    margin-bottom: var(--m-size);
+    padding: 2.4rem;
+    width: 100%;
+}
+
+.big-button:disabled{
+    opacity: .5;
+}
+
+@media(min-width: 45rem){
+    .big-button{
+        margin-bottom: var(--xl-size);
+    }
+}
+
+//button
+.button{
+    background: var(--purple);
+    border: none;
+    border-bottom: .3rem solid darken( #8357c5, 10%);
+    color: white;
+    font-weight: 500;
+    padding: var(--s-size);
+}
+
+//b->block e-> element m->modifier
+.button--link{
+    background: none;
+    border:none;
+    color:var(--off-white);
+    padding: 0;
+}

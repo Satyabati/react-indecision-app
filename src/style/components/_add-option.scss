@@ -1,0 +1,35 @@
+//Add option error
+.add-option-error{
+    color: var(--off-white);
+    font-style: italic;
+    margin: var(--m-size) 0 0 0 ;
+    padding: 0 var(--m-size);
+}
+
+//Add option
+
+.add-option{
+    display: flex;
+    flex-direction: column;
+    padding: var(--m-size);
+}
+
+.add-option__input{
+    background: var(--dark-blue);
+    border: none;
+    color:var(--off-white);
+    border-bottom:  .3rem solid darken( #333745, 10%);;
+    flex-grow: 1;
+    margin: 0 0 var(--s-size) 0;
+   // margin-right: var(--s-size);
+    padding:  var(--s-size);
+}
+
+@media (max-width: 45rem){
+    .add-option{
+       flex-direction: row;
+    }
+    .add-option__input{
+        margin: 0  var(--s-size) 0 0;
+    }
+}

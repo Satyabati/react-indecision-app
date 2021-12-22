@@ -1,0 +1,30 @@
+.widget{
+    background: var(--light-blue);
+    margin-bottom: var(--xl-size);
+    font-size: var(--m-size);
+   
+
+}
+.widget__message{
+    color: var(--off-white);
+    text-align: center;
+    padding: var(--l-size);
+    margin: 0;
+    border-bottom:  1px solid lighten( #464b5e, 10%);
+}
+
+//widget header
+
+.widget-header{
+    background: var(--blue);
+    color:var(--off-white);
+    padding: var(--m-size);
+    display: flex;
+    justify-content: space-between;
+}
+
+.widget-header__title{
+    margin:0;
+
+}
+
